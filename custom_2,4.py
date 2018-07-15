@@ -1,7 +1,7 @@
 from mininet.topo import Topo
 
 class MyTopo( Topo ):
-    "Simple topology example."
+    "2 host, 4 switch"
 
     def __init__( self ):
         "Create custom topo."
